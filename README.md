@@ -17,7 +17,7 @@ You have to attach the *Java_Preproc_Macros.jar* to the virtual machine. In vsco
 Then the class where you would like to use the preprocessor macros's has to have the `@Using_Preproc_Macros` annotation, like so:
 
 ```java
-@sfjl_Using_Preproc_Macros
+@Using_Preproc_Macros
 public class Preproc_Macros_01 {
     // ...
 }
